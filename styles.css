@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: monospace;
+  }
+  
+  figure {
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: -50px;
+    //border: thin solid black;
+    }
+  
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+    }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  td {
+      background-color: aquamarine;
+    }
+    
+  th {
+    background-color: green;
+  }
+  
+  .property {
+      font-weight: bold;
+      text-align: left;
+      color: black;
+      background-color: mediumseagreen;
+    }
+  
+  h2 {
+    padding: 5px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
